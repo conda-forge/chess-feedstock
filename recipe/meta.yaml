@@ -1,13 +1,13 @@
 {% set name = "chess" %}
-{% set version = "1.11.0" %}
+{% set version = "1.11.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chess-{{ version }}.tar.gz
-  sha256: 3c63cace177860987705b71dedcfab63fb1065186799a06db7eccd76e833b279
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/chess-{{ version }}.tar.gz
+  sha256: a8b43e5678fdb3000695bdaa573117ad683761e5ca38e591c4826eba6d25bb39
 
 build:
   noarch: python
